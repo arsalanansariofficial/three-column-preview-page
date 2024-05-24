@@ -78,6 +78,9 @@ main {
     background: var(--Transparent-white);
     display: flex;
     justify-content: center;
+    scale: 0.9;
+    animation: appear-main 500ms ease-in-out forwards;
+    animation-delay: 1500ms;
   }
 }
 
@@ -85,6 +88,8 @@ section {
   padding: 3em 2.5em;
   max-width: 20em;
   margin-inline: auto;
+  scale: 0;
+  animation: appear 500ms ease-in-out forwards;
 
   @media (min-width: 40em) {
     margin-inline: 0;
